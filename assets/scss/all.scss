@@ -1,0 +1,16 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import './utils/variables';
+
+
+@import "../../node_modules/bootstrap";
+
+
+@import'./base/base';
+@import './base/fontStyle';
+
+
+@import './layout/sideBar';
+@import './layout/topAssignment.scss';
+
+
+@import './pages/assignment.scss';

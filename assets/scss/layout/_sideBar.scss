@@ -1,0 +1,52 @@
+.sideBar {
+    position: fixed;
+    min-width: 296px;
+    min-height: 100vh;
+    background-color: $gray-100;
+
+    .sideBarContent {
+        padding-left: 0;
+
+        .sideBarActive {
+            position: relative;
+
+            &::before {
+                content: "";
+                position: absolute;
+                top: -4px;
+                left: 0;
+                width: 4px;
+                height: 32px;
+                border-left: 4px solid $success;
+            }
+            
+            span {
+                color: $success;
+            }
+            
+        }
+    }
+
+    .sideBottom {
+        img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+        }
+
+        .sideBarAccEmail {
+            font-size: 14px;
+            color: $gray-600;
+        }
+    }
+}
+
+.logo {
+    background-image: url(../images/logo-ANSWER.svg);
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 151px;
+    height: 40px;
+}
+
