@@ -1,0 +1,114 @@
+.bottomAdmin {
+
+    .adminArrowDown {
+        margin-left: 4px;
+        font-size: 12px;
+        color: $success;
+    }
+
+    .adminTableItem {
+        padding-top: 19px;
+        padding-bottom: 17px;
+    }
+    
+    .btnVisibilityModal, .btnEditModal {
+        cursor: pointer;
+    }
+}
+
+.pagination-select {
+    
+    li {
+        width: 32px;
+        height: 32px;
+        padding-top: 4px;
+        padding-bottom: 6px;
+        border: 1px solid $success;
+        text-align: center;
+
+        &:not(:last-child) {
+            /* 調整 border */
+            border-right: none;
+        }
+
+        a {
+            color: $gray-900;
+        }
+
+        &:first-child a {
+            font-size: 24px;
+            color: $success;
+        }
+        &:last-child a {
+            font-size: 24px;
+            color: $success;
+        } 
+
+        &:hover {
+            background-color: $success;
+            a {
+                color: white;
+            }
+        }
+    }
+
+    .page-active {
+        background-color: $success;
+        a {
+            color: white;
+        }
+    }
+
+    .last-page {
+        padding: 0;
+        border-radius: 2px 0 0 2px;
+    }
+
+    .next-page {
+        padding: 0;
+        border-radius: 0 2px 2px 0;
+    }
+    
+}
+
+.visibilityImg {
+    width: 141px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.visibilityMail {
+    font-size: 14px;
+    color: $gray-600;
+}
+
+.visibilityVerified {
+    background-color: $gray-100;
+    font-size: 14px;
+}
+
+.expand_more {
+    display: none;
+}
+
+.expand_less {
+    display: inline-block;
+}
+
+.collapsed .expand_more {
+    display: inline-block;
+}
+  
+.collapsed .expand_less {
+    display: none;
+}
+
+.visibilityDeactivateBtn {
+    width: 146px;
+    height: 35px;
+}
+
+.visibilityEditBtn {
+    width: 92px;
+    height: 35px;
+}

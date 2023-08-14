@@ -1,0 +1,116 @@
+.headerLeft {
+  .headerAdminTitle {
+    margin-right: 48px;
+    margin-bottom: 0;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .headerAdminAdd {
+    color: $success;
+  }
+  
+  .btnAddModal {
+    padding-top: 5px;
+    cursor: pointer;
+    &:hover {
+      color: $success;
+    }
+  }
+}
+
+.headerRight {
+    span {
+      margin-top: 5px;
+    }
+}
+
+.adminModalContent {
+
+    .adminModalHeader {
+      padding: 32px;
+    }
+
+    .adminModalTitle {
+      font-size: 24px;
+      font-weight: 700;
+    }
+
+    .adminModalSubTitle {
+      font-size: 20px;
+      font-weight: 700;
+    }
+    
+    .adminModalBody {
+      padding-left: 32px;
+      padding-right: 32px;
+    }
+
+    .adminModalFooter {
+      padding: 16px 32px;
+    }
+    
+}
+
+.adminModalAccount {
+  padding-bottom: 24.5px;
+  border-bottom: 1px solid $gray-400;
+
+  label {
+    font-size: 14px;
+  }
+}
+
+.adminModalVerification {
+  padding-top: 24.5px;
+  padding-bottom: 24.5px;
+  border-bottom: 1px solid $gray-400;
+
+  .modalVerificationDate {
+    font-size: 14px;
+  }
+
+  button {
+    border: 1px solid $gray-400;
+  }
+
+}
+
+.adminModalAccess {
+  padding-top: 24.5px;
+  padding-bottom: 24.5px;
+  border-bottom: 1px solid $gray-400;
+
+  select {
+    border: 1px solid $gray-900;
+    color: $gray-600;
+  }
+}
+
+.adminModalCustom {
+  padding-top: 24.5px;
+}
+
+.adminModalDeactivate {
+   padding-top: 24.5px;
+}
+
+.adminModalBorder {
+  padding-bottom: 24.5px;
+  border-bottom: 1px solid $gray-400;
+}
+
+.adminModalCancelBtn {
+  width: 113px;
+  height: 35px;
+}
+
+.adminModalAddBtn {
+  width: 93px;
+  height: 35px;
+}
+
+.adminModalUpdateBtn {
+  width: 116px;
+  height: 35px;
+}
